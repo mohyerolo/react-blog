@@ -1,17 +1,17 @@
+import './Header.css'
 
 function Header() {
     return (
-        <header>
+        <header className='navbar'>
             <h1>Blog</h1>
             <nav>
-                <ul>
+                <ul className='navbar__menu'>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <hr/>
         </header>
     );
 }
